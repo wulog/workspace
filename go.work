@@ -1,0 +1,37 @@
+go 1.18
+
+use (
+	./client
+	./cmd/heka-cat
+	./cmd/heka-flood
+	./cmd/heka-inject
+	./cmd/heka-logstreamer
+	./cmd/heka-sbmgr
+	./cmd/heka-sbmgrload
+	./cmd/hekad
+	./engine
+	./plugins/amqp
+	./plugins/dasher
+	./plugins/docker
+	./plugins/elasticsearch
+	./plugins/file
+	./plugins/geoip
+	./plugins/graphite
+	./plugins/http
+	./plugins/irc
+	./plugins/kafka
+	./plugins/logoutput
+	./plugins/logstreamer
+	./plugins/nagios
+	./plugins/payload
+	./plugins/payload_encoder
+	./plugins/process
+	./plugins/rst_encoder
+	./plugins/scribble_decoder
+	./plugins/smtp
+	./plugins/statsd
+	./plugins/tcp
+	./plugins/test
+	./plugins/testsupport
+	./plugins/udp
+)
