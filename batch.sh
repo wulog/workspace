@@ -11,7 +11,10 @@
 # done
 
 function update_repo() {
-  for D in plugins/*; do
+  dir=($(ls -d plugins/*))
+  dir+=( client cmd engine )
+  for i in ${!dir[@]}; do
+    D=${dir[$i]}
     cd $D
     git add .
     git commit -m "update"
@@ -21,15 +24,24 @@ function update_repo() {
 }
 
 function init(){
-  for D in plugins/*; do
+  dir=($(ls -d plugins/*))
+  dir+=( client cmd engine )
+  for i in ${!dir[@]}; do
+    D=${dir[$i]}
     cd $D
     git add .
-    git commit -m "Update plugins"
+    git commit -m "init"
     git branch -M main
-    git remote add origin git@github.com:wulog/plugin-${D:8}.git
+    if [[ $D =~ "/" ]]; then   
+      git remote add origin git@github.com:wulog/plugin-${D##*/}.git
+    else
+      git remote add origin git@github.com:wulog/$D.git
+    fi
     git push -u origin main
     cd -
   done
 }
 
+# tmp=${a#*_}   # remove prefix ending in "_"
+# b=${tmp%_*}   # remove suffix starting with "_"
 update_repo
