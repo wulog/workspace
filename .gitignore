@@ -3,7 +3,7 @@
 *.a
 *.so
 # executables
-
+.idea/
 hraftd
 **/hraftd
 

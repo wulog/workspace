@@ -1,0 +1,81 @@
+[submodule "client"]
+    path = client
+	url = https://github.com/wulog/client.git
+[submodule "cmd"]
+	path = cmd
+	url = https://github.com/wulog/cmd.git
+[submodule "engine"]
+	path = engine
+	url = https://github.com/wulog/engine.git
+[submodule "plugins/amqp"]
+	path = plugins/amqp
+	url = https://github.com/wulog/plugin-amqp.git
+[submodule "plugins/docker"]
+	path = plugins/docker
+	url = https://github.com/wulog/plugin-docker
+[submodule "plugins/elasticsearch"]
+	path = plugins/elasticsearch
+	url = https://github.com/wulog/plugin-elasticsearch
+[submodule "plugins/dasher"]
+	path = plugins/dasher
+	url = https://github.com/wulog/plugin-dasher
+[submodule "plugins/file"]
+	path = plugins/file
+	url = https://github.com/wulog/plugin-file
+[submodule "plugins/geoip"]
+	path = plugins/geoip
+	url = https://github.com/wulog/plugin-geoip
+[submodule "plugins/graphite"]
+	path = plugins/graphite
+	url = https://github.com/wulog/plugin-graphite
+[submodule "plugins/http"]
+	path = plugins/http
+	url = https://github.com/wulog/plugin-http
+[submodule "plugins/irc"]
+	path = plugins/irc
+	url = https://github.com/wulog/plugin-irc
+[submodule "plugins/kafka"]
+	path = plugins/kafka
+	url = https://github.com/wulog/plugin-kafka
+[submodule "plugins/logoutput"]
+	path = plugins/logoutput
+	url = https://github.com/wulog/plugin-logoutput
+[submodule "plugins/logstreamer"]
+	path = plugins/logstreamer
+	url = https://github.com/wulog/plugin-logstreamer
+[submodule "plugins/nagios"]
+	path = plugins/nagios
+	url = https://github.com/wulog/plugin-nagios
+[submodule "plugins/payload"]
+	path = plugins/payload
+	url = https://github.com/wulog/plugin-payload
+[submodule "plugins/payload_encoder"]
+	path = plugins/payload_encoder
+	url = https://github.com/wulog/plugin-payload_encoder
+[submodule "plugins/process"]
+	path = plugins/process
+	url = https://github.com/wulog/plugin-process
+[submodule "plugins/rst_encoder"]
+	path = plugins/rst_encoder
+	url = https://github.com/wulog/plugin-rst_encoder
+[submodule "plugins/smtp"]
+	path = plugins/smtp
+	url = https://github.com/wulog/plugin-smtp
+[submodule "plugins/statsd"]
+	path = plugins/statsd
+	url = https://github.com/wulog/plugin-statsd
+[submodule "plugins/tcp"]
+	path = plugins/tcp
+	url = https://github.com/wulog/plugin-tcp
+[submodule "plugins/test"]
+	path = plugins/test
+	url = https://github.com/wulog/plugin-test
+[submodule "plugins/testsupport"]
+	path = plugins/testsupport
+	url = https://github.com/wulog/plugin-testsupport
+[submodule "plugins/udp"]
+	path = plugins/udp
+	url = https://github.com/wulog/plugin-udp
+[submodule "plugins/plugins/scribble_decoder"]
+	path = plugins/plugins/scribble_decoder
+	url = https://github.com/wulog/plugin-scribble_decoder
