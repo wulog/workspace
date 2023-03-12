@@ -76,6 +76,7 @@
 [submodule "plugins/udp"]
 	path = plugins/udp
 	url = https://github.com/wulog/plugin-udp
-[submodule "plugins/plugins/scribble_decoder"]
-	path = plugins/plugins/scribble_decoder
+
+[submodule "plugins/scribble_decoder"]
+	path = plugins/scribble_decoder
 	url = https://github.com/wulog/plugin-scribble_decoder
